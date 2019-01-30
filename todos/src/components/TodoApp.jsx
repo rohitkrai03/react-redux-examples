@@ -5,7 +5,8 @@ import Footer from './Footer';
 
 const TodoApp = () => {
   return (
-    <div>
+    <div className='todoapp'>
+      <h1>todos</h1>
       <AddTodo />
       <TodoList />
       <Footer />
